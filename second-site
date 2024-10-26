@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electro Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+    <style>
+      @import url(https://fonts.google.com/selection/embed);
+      .chelsea-market-regular {
+  font-family: "Chelsea Market", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+        body {
+            margin: 0;
+            font-family: sans-serif;
+        }
+
+        .header {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 37px;
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+        }
+
+        .header-left img{
+          height: 50px;
+          width: 50px;
+          margin-left: -40px;
+        }
+
+        .header-left a {
+            color: white;
+            text-decoration: none;
+            margin-right: 15px;
+            margin-left: 30px;
+        }
+
+        .header-right {
+            display: flex;
+            align-items: center;
+        }
+
+        .header-right a {
+            color: white;
+            text-decoration: none;
+            margin-right: 55px;
+            margin-left: -20px;
+           
+        }
+
+        .header-right img {
+            width: 20px;
+            height: 20px;
+            margin-right: -40px;
+        }
+
+        .content {
+            padding: 20px;
+            font-family: cursive;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .imgg {
+            width: 100px;
+            height: 100px;
+            margin-right: 15px;
+            margin-left: 92px;
+        }
+
+        .logo h1 {
+            color: #f05050;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .search-bar {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .search-bar input {
+            width: 554px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-right: 10px;
+            margin-left: 71px;
+            margin-top: -18px;
+        }
+
+        .search-bar button {
+            padding: 10px 20px;
+            background-color: #f05050;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: -18px;
+        }
+
+        .categories {
+            margin-top: 20px;
+            background-color: #efeded;
+            height: 50px;
+            margin-left: 0;
+            /* width: 1700px; */
+        }
+
+        .categories select {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 229px;
+            margin-top: 7px;
+        }
+
+        .navigation {
+            margin-top: -29px;
+            display: flex;
+            justify-content: space-around;
+            margin-left: 484px;
+            margin-right: 206px;
+        }
+
+        .navigation a {
+            color: #f05050;
+            text-decoration: none;
+            margin-right: 0px;
+        }
+
+        .imggg{
+          width: 50px;
+          height: 50px;
+          margin-left: 85px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-left">
+            <a href="#"><b>Offer Zone Top Deals & Discounts</b></a>
+            <a href="#"><img src="images-removebg-preview.png" alt="cart"></a>
+        </div>
+        <div class="header-right">
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/844/844245.png" alt="location"></a>
+            <a href="#">Select Location</a>
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/3144/3144454.png" alt="truck"></a>
+            <a href="#">Track Order</a>
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/3144/3144454.png" alt="phone"></a>
+            <a href="#">001 234 5678</a>
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/844/844245.png" alt="login"></a>
+            <a href="#">Log In</a>
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/844/844245.png" alt="register"></a>
+            <a href="#">Register</a>
+        </div>
+    </header>
+
+    <main class="content">
+        <div class="logo">
+            <img class="imgg" src="e-cart.png" alt="cart">
+            <h1>Electro Store</h1>
+            <div class="search-bar">
+              <input type="text" placeholder="Search">
+              <button>Search</button>
+          </div>
+            <img class="imggg" src="grocery-store.png">
+        </div>
+        <div class="categories">
+            <select>
+                <option value="">All Categories</option>
+            </select>
+              <div class="navigation">
+              <a href="#">Home</a>
+              <a href="#">Electronics</a>
+              <a href="#">Appliances</a>
+              <a href="#">About Us</a>
+              <a href="#">New Arrivals</a>
+              <a href="#">Pages</a>
+              <a href="#">Contact Us</a>
+          </div>
+        </div>
+    </main>
+</body>
+</html>
